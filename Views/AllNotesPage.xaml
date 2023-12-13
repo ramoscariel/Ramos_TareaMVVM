@@ -2,7 +2,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:RamosApuntes.ViewModels"
              x:Class="RamosApuntes.Views.AllNotesPage"
-             Title="Your Notes">
+             Title="Your Notes"
+             NavigatedTo="ContentPage_NavigatedTo">
     <ContentPage.BindingContext>
         <viewModels:NotesViewModel />
     </ContentPage.BindingContext>
